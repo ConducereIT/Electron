@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 
 import LaptopSVG from "../assets/laptop.svg";
 import { Countdow } from "../components/Countdown.component.tsx";
@@ -25,8 +26,8 @@ import ControlledPopup from "../components/Popup.component.tsx";
 // import NewCarousel from "../components/NewCarousel.component.tsx";
 import Faq from "../components/Faq.component.tsx";
 import Sponsors from "../components/Sponsors.component.tsx";
-import ProgramPC from "../section/Program.tsx";
-import ProgramMobile from "../section/ProgramMobile.tsx";
+// import ProgramPC from "../section/Program.tsx";
+// import ProgramMobile from "../section/ProgramMobile.tsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -95,9 +96,9 @@ const Home = () => {
       {/* <div className=" hidden lg:block mb-16">
         <NewCarousel />
       </div> */}
-      <div id="Program" className="hidden lg:block mx-auto pt-12 pb-6">
+      {/* <div id="Program" className="hidden lg:block mx-auto pt-12 pb-6">
         <ProgramPC />
-      </div>
+      </div> */}
       <div id="FAQ" className="hidden lg:block">
         <Faq />
       </div>
@@ -182,9 +183,9 @@ const Home = () => {
         {/* <div className="lg:hidden mx-auto">
           <NewCarousel />
         </div> */}
-        <div id="ProgramM" className="lg:hidden mx-auto">
+        {/* <div id="ProgramM" className="lg:hidden mx-auto">
           <ProgramMobile />
-        </div>
+        </div> */}
         <div id="FAQM" className="lg:hidden mx-auto">
           <Faq />
         </div>

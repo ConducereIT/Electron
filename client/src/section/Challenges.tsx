@@ -64,25 +64,23 @@ export const Challenges = () => {
             {expandedDiv === 1 ? (
               <div className={` bg-white h-[80%] mt-4`}>
                 <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
-                  Scopul acestei probe consta in dezvoltarea unui sistem
-                  specializat pentru imbunatatirea, restaurarea si analiza
-                  imaginilor in contextul securitatii, cu utilizarea
-                  tehnologiilor de inteligenta artificiala
+                Această probă oferă o experiență practică în utilizarea modelelor de computer vision, dar și data analysis.
+                Participanții vor interacționa cu tehnologii avansate de prelucrare de date, explorând aplicații esențiale în domeniul inteligenței artificiale.
                 </h1>
 
                 <div className="text-black mt-10 ml-5 ">
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Super Resolution</h3>
+                    <h3 className="mr-6">Computer Vision</h3>
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Denoising</h3>
+                    <h3 className="mr-6">Data Analysis</h3>
                   </div>
-                  <div className="flex items-center mb-2">
+                  {/* <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
                     <h3>Digital Forsenics</h3>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/*<div className="text-black flex text-lg ml-5 mt-10" >*/}
@@ -122,7 +120,7 @@ export const Challenges = () => {
                   </span>
                 </button>
               </a>
-              <img src={PremiiML} className="absolute -z-10 scale-[200%]" />
+              <img src={PremiiML} className="absolute -z-10 scale-[200%] right-2" />
             </div>
           </div>
           <div
@@ -141,29 +139,21 @@ export const Challenges = () => {
             {expandedDiv === 2 ? (
               <div className={`bg-white h-[80%] w-[100%] mt-4`}>
                 <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
-                  Proba se adresează celor orientați spre gândirea creativă și
-                  neconvențională, prin intermediul unor provocări structurate
-                  care acoperă diverse discipline. Scopul este testarea
-                  abilitatea de a deduce și aplica în mod practic informațiile
-                  teoretice acumulate
+                Această probă se adresează persoanelor orientate spre gândirea neconvențională, prin intermediul provocărilor din diverse arii de studiu. Se va testa abilitatea de a deduce și aplica în mod practic informațiile teoretice acumulate.
                 </h1>
 
                 <div className="text-black mt-10 ml-5 ">
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Audio-video</h3>
+                    <h3 className="mr-6">Hardware Hacking</h3>
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Embeded Systems</h3>
+                    <h3 className="mr-6">Cyber Security</h3>
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3>Cyber Security</h3>
-                  </div>
-                  <div className="flex items-center mb-2">
-                    <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3>FPGA design</h3>
+                    <h3>Signal Processing</h3>
                   </div>
                 </div>
 
@@ -206,7 +196,7 @@ export const Challenges = () => {
               </a>
               <img
                 src={PremiiCapture}
-                className="absolute -z-10 scale-[220%] pt-1 -right-1"
+                className="absolute -z-10 scale-[200%]  -right-1"
               />
             </div>
           </div>
@@ -227,24 +217,21 @@ export const Challenges = () => {
             {expandedDiv === 3 ? (
               <div className={` bg-white h-[80%] w-[100%] mt-6`}>
                 <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
-                  Proba oferă participanților posibilitatea de a-și testa
-                  aptitudinile în calitate de viitori ingineri electroniști,
-                  familiarizându-se în același timp cu dispozitivele integrate
-                  și protocoalele de comunicare asociate.
+                Această probă îi provoacă pe participanți să rezolve probleme tehnice din domenii diverse, punându-le la încercare logica, creativitatea și capacitatea de a aplica cunoștințele teoretice în mod practic.
                 </h1>
 
                 <div className="text-black mt-10 ml-5 ">
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Communication Protocols</h3>
+                    <h3 className="mr-6">Hardware Hacking</h3>
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Embedded Systems</h3>
+                    <h3 className="mr-6">Cyber Security</h3>
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3>Reverse Engineering</h3>
+                    <h3>Signal processing</h3>
                   </div>
                 </div>
 
@@ -287,7 +274,7 @@ export const Challenges = () => {
               </a>
               <img
                 src={PremiiConnect}
-                className="absolute -z-10 scale-[210%] right-4"
+                className="absolute -z-10 scale-[200%] left-1"
               />
             </div>
           </div>
