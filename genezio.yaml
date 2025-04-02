@@ -1,15 +1,24 @@
-name: electron
+name: Electron-v2
 region: eu-central-1
-language: ts
-cloudProvider: genezio
-scripts:
-  preBackendDeploy: npm install
-  preFrontendDeploy: npm install @genezio-sdk/test_eu-central-1 && npm install && npm run build
-  preStartLocal: cd server && npm install
+yamlVersion: 2
+backend:
+    path: server
+    language:
+        name: ts
+    scripts:
+        deploy:
+            - npm install
+        local:
+            - npm install
 frontend:
-  path: client/dist
-  subdomain: cyan-tremendous-minnow
-packageManager: npm
-workspace:
-  backend: server
-  frontend: client
+    path: client
+    publish: dist
+    scripts:
+        deploy:
+            - npm install @genezio-sdk/${{projectName}}@1.0.0-${{stage}}
+            - npm install
+        build:
+            - npm run build
+    sdk:
+        language: ts
+    subdomain: silver-unconscious-elk
