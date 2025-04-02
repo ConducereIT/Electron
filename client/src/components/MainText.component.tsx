@@ -8,7 +8,7 @@ export const MainText = () => {
       </div>
 
       <h3 className="text-frumos text-2xl  h-20 mt-4">
-        :: Hackathon developed by LSE x ETTI ::
+        :: Hackathon developed with LSE x ETTI ::
       </h3>
       <div className="flex justify-center">
         <h3 className="text-frumos text-1xl h-20 -mt-14 flex items-center">
