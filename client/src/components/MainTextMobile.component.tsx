@@ -9,7 +9,7 @@ export default function MainTextMobile() {
       </div>
 
       <h3 className="text-frumos text-sm mt-8 mb-4">
-        Hackathon developed by LSE x ETTI
+        Hackathon developed with LSE x ETTI
       </h3>
       <div className="flex justify-center">
         <h3 className="text-frumos text-sm flex items-center">
