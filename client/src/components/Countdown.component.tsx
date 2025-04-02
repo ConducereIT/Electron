@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export const Countdow= () => {
   const [countdownDate] = useState<number>(
-    new Date("3/10/2024 10:30:00 AM").getTime()
+    new Date("4/26/2025 10:30:00 AM").getTime()
   );
 
   const [state, setState] = useState<{
@@ -58,7 +58,7 @@ export const Countdow= () => {
       <div className="w-full flex justify-center text-[#FFFFFF] lg:scale-[100%] scale-[40%] mb-24 z-10 text-frumos space-x-4">
         <div className="time-section ">
           <div className="time text-8xl font-extrabold text-frumos">
-            {state.days || "0"}
+            {state.days >= 0 ? state.days : "0"}
           </div>
           <small className="time-text text-white">Zile</small>
         </div>
@@ -67,7 +67,7 @@ export const Countdow= () => {
         </div>
         <div className="time-section">
           <div className="time text-8xl font-extrabold">
-            {state.hours || "00"}
+            {state.hours >= 0 ? state.hours : "00"}
           </div>
           <small className="time-text text-white">Ore</small>
         </div>
@@ -76,7 +76,7 @@ export const Countdow= () => {
         </div>
         <div className="time-section">
           <div className="time text-8xl font-extrabold">
-            {state.minutes || "00"}
+            {state.minutes >= 0 ? state.minutes : "00"}
           </div>
           <small className="time-text text-white">Minute</small>
         </div>

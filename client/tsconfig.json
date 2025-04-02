@@ -7,12 +7,15 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node", // Schimbat din "bundler" în "node"
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "typeRoots": ["./node_modules/@types"], // Adăugat pentru a include tipurile
+
+    "allowSyntheticDefaultImports": true,
 
     /* Linting */
     "strict": true,

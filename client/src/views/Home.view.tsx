@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 
 import LaptopSVG from "../assets/laptop.svg";
 import { Countdow } from "../components/Countdown.component.tsx";
@@ -25,8 +26,8 @@ import ControlledPopup from "../components/Popup.component.tsx";
 // import NewCarousel from "../components/NewCarousel.component.tsx";
 import Faq from "../components/Faq.component.tsx";
 import Sponsors from "../components/Sponsors.component.tsx";
-import ProgramPC from "../section/Program.tsx";
-import ProgramMobile from "../section/ProgramMobile.tsx";
+// import ProgramPC from "../section/Program.tsx";
+// import ProgramMobile from "../section/ProgramMobile.tsx";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -63,7 +64,7 @@ const Home = () => {
               className="bg-[#FFC947] rounded-md mb-10 text-black w-60 flex items-center absolute mt-8 h-12 left-1/2 transform -translate-x-1/2"
               onClick={() =>
                 window.open(
-                  "https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3",
+                  "https://cyber-edu.co/register?token=89f43e3accaf616a26c74767c31b4b9d4c33810a0564d2fcd0d4c4d1394c706d356100a2496721d5",
                   "_blank"
                 )
               }
@@ -95,14 +96,20 @@ const Home = () => {
       {/* <div className=" hidden lg:block mb-16">
         <NewCarousel />
       </div> */}
-      <div id="Program" className="hidden lg:block mx-auto pt-12 pb-6">
+      {/* <div id="Program" className="hidden lg:block mx-auto pt-12 pb-6">
         <ProgramPC />
-      </div>
+      </div> */}
       <div id="FAQ" className="hidden lg:block">
         <Faq />
       </div>
       <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
+      </div>
+      <div id="Parteneri" className="hidden lg:block">
+        <Sponsors />
+      </div>
+      <div>
+        
       </div>
       <div
         id="Contact"
@@ -182,9 +189,9 @@ const Home = () => {
         {/* <div className="lg:hidden mx-auto">
           <NewCarousel />
         </div> */}
-        <div id="ProgramM" className="lg:hidden mx-auto">
+        {/* <div id="ProgramM" className="lg:hidden mx-auto">
           <ProgramMobile />
-        </div>
+        </div> */}
         <div id="FAQM" className="lg:hidden mx-auto">
           <Faq />
         </div>
@@ -192,6 +199,7 @@ const Home = () => {
         <div id="ParteneriM" className="lg:hidden mx-auto">
           <Sponsors />
         </div>
+
         <div id="ContactM" className="lg:hidden mx-auto ">
           <FooterMobile />
         </div>
