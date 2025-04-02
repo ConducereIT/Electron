@@ -35,7 +35,7 @@ export default function Sponsors() {
           />
           <img
             onClick={() =>
-              window.open("https://madenn.ro/", "_blank")
+              window.open("https://emag.ro/", "_blank")
             }
             src={EMAG}
             alt="Gold"
@@ -45,13 +45,25 @@ export default function Sponsors() {
 
         {/* SILVER */}
         <div className="flex justify-center items-center gap-2 lg:gap-4 mt-6">
-          <img src={InfineonLogo} alt="Silver" className="scale-100" />
+          <img 
+              onClick={() =>
+                window.open("https://www.infineon.com/cms/en/", "_blank")
+              }
+          src={InfineonLogo} alt="Silver" className="scale-100" />
         </div>
 
         {/* BRONZE */}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-4 mt-6">
-          <img src={Bronze} alt="Bronze" className="scale-100" />
-          <img src={EMIA} alt="Bronze" className="scale-100" />
+          <img 
+                      onClick={() =>
+                        window.open("https://www.nxp.com/", "_blank")
+                      }
+          src={Bronze} alt="Bronze" className="scale-100" />
+          <img
+                      onClick={() =>
+                        window.open("https://emia.com/", "_blank")
+                      }
+          src={EMIA} alt="Bronze" className="scale-100" />
         </div>
 
         <div className="lg:hidden mt-10">

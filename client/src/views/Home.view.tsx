@@ -64,7 +64,7 @@ const Home = () => {
               className="bg-[#FFC947] rounded-md mb-10 text-black w-60 flex items-center absolute mt-8 h-12 left-1/2 transform -translate-x-1/2"
               onClick={() =>
                 window.open(
-                  "https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3",
+                  "https://cyber-edu.co/register?token=89f43e3accaf616a26c74767c31b4b9d4c33810a0564d2fcd0d4c4d1394c706d356100a2496721d5",
                   "_blank"
                 )
               }
@@ -101,6 +101,9 @@ const Home = () => {
       </div> */}
       <div id="FAQ" className="hidden lg:block">
         <Faq />
+      </div>
+      <div id="Parteneri" className="hidden lg:block">
+        <Sponsors />
       </div>
       <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
@@ -196,6 +199,7 @@ const Home = () => {
         <div id="ParteneriM" className="lg:hidden mx-auto">
           <Sponsors />
         </div>
+
         <div id="ContactM" className="lg:hidden mx-auto ">
           <FooterMobile />
         </div>

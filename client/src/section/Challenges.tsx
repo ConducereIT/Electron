@@ -106,7 +106,7 @@ export const Challenges = () => {
                 </span>
               </button>
               <a
-                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                href="https://cyber-edu.co/register?token=89f43e3accaf616a26c74767c31b4b9d4c33810a0564d2fcd0d4c4d1394c706d356100a2496721d5"
                 target="_blank"
               >
                 <button className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
@@ -180,7 +180,7 @@ export const Challenges = () => {
                 </span>
               </button>
               <a
-                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                href="https://cyber-edu.co/register?token=89f43e3accaf616a26c74767c31b4b9d4c33810a0564d2fcd0d4c4d1394c706d356100a2496721d5"
                 target="_blank"
               >
                 <button className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
@@ -258,7 +258,7 @@ export const Challenges = () => {
                 </span>
               </button>
               <a
-                href="https://cyber-edu.co/register?token=40a121ba7d8ac969b5d08e041632f81ad4a599d11f054d4d1812ac94f480c4e34b4a9548de58bdf3"
+                href="https://cyber-edu.co/register?token=89f43e3accaf616a26c74767c31b4b9d4c33810a0564d2fcd0d4c4d1394c706d356100a2496721d5"
                 target="_blank"
               >
                 <button className="bg-[#FFC947] rounded-md text-black w-60 flex items-center justify-center h-12">
