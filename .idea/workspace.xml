@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12428e0-a60f-437b-91cc-3ac0504e579d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/components/Countdown.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Countdown.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HeaderMobile.Component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderMobile.Component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NewCarousel.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NewCarousel.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Popup.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Popup.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Sponsors.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Sponsors.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Home.view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Home.view.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +42,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/home/mihnea/org/ElectronFinal/ElectronVariantaFinala",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mihnea/org/ElectronFinal/ElectronVariantaFinala/client/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +93,7 @@
       <workItem from="1708075227594" duration="27000" />
       <workItem from="1708075269725" duration="29252000" />
       <workItem from="1708525736939" duration="4672000" />
+      <workItem from="1709669364840" duration="1729000" />
     </task>
     <servers />
   </component>

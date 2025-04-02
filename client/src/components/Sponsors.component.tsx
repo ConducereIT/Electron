@@ -21,7 +21,13 @@ export default function Sponsors() {
           />
         </h3>
         <div className=" grid lg:grid-cols-6 lg:mx-0 items-center place-items-center gap-2 lg:gap-0">
-          <img src={Gold} alt="Gold" className=" lg:col-span-2 scale-75" />
+           <img onClick={() =>
+                   window.open(
+                       "https://madenn.ro/",
+                       "_blank"
+                   )
+               }
+               src={Gold} alt="Gold" className=" lg:col-span-2 scale-75 hover:cursor-pointer" />
           <img src={Silver} alt="Silver" className=" lg:col-span-2 scale-75" />
           <img src={Bronze} alt="Bronze" className="lg:col-span-2 scale-75" />
           <div className="lg:hidden mt-10">
