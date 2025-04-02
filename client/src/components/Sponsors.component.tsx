@@ -20,28 +20,50 @@ export default function Sponsors() {
             alt=""
           />
         </h3>
-        <div className=" grid lg:grid-cols-6 lg:mx-0 items-center place-items-center gap-2 lg:gap-0">
-           <img onClick={() =>
-                   window.open(
-                       "https://madenn.ro/",
-                       "_blank"
-                   )
-               }
-               src={Gold} alt="Gold" className=" lg:col-span-2 scale-75 hover:cursor-pointer" />
-          <img src={Silver} alt="Silver" className=" lg:col-span-2 scale-75" />
-          <img src={Bronze} alt="Bronze" className="lg:col-span-2 scale-75" />
-          <div className="lg:hidden mt-10">
-            <p className="text-frumos text-white">
-              Eveniment organizat cu sprijinul
-            </p>
-            <div className="flex justify-between mt-5">
-              <img src={LSEM} alt="LSE" />
-              <img src={ETTI} alt="Etti" />
-              <img src={UPBM} alt="Etti" className="scale-[130%]" />
-              <img src={CyberEdu} alt="Etti" />
-            </div>
+
+        {/* GOLD */}
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-1">
+          <img
+            onClick={() =>
+              window.open("https://madenn.ro/", "_blank")
+            }
+            src={Gold}
+            alt="Gold"
+            className="scale-100 hover:cursor-pointer"
+          />
+          <img
+            onClick={() =>
+              window.open("https://madenn.ro/", "_blank")
+            }
+            src={Gold}
+            alt="Gold"
+            className="scale-100 hover:cursor-pointer"
+          />
+        </div>
+
+        {/* SILVER */}
+        <div className="flex justify-center items-center gap-2 lg:gap-4 mt-6">
+          <img src={Silver} alt="Silver" className="scale-100" />
+        </div>
+
+        {/* BRONZE */}
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-4 mt-6">
+          <img src={Bronze} alt="Bronze" className="scale-100" />
+          <img src={Bronze} alt="Bronze" className="scale-100" />
+        </div>
+
+        <div className="lg:hidden mt-10">
+          <p className="text-frumos text-white">
+            Eveniment organizat cu sprijinul
+          </p>
+          <div className="flex justify-between mt-5">
+            <img src={LSEM} alt="LSE" />
+            <img src={ETTI} alt="Etti" />
+            <img src={UPBM} alt="Etti" className="scale-[130%]" />
+            <img src={CyberEdu} alt="Etti" />
           </div>
         </div>
+
         <div className="hidden lg:block mt-10">
           <div className="grid grid-cols-7 mt-5">
             <p className="text-frumos text-2xl mt-2 col-span-3 text-white">
@@ -57,3 +79,7 @@ export default function Sponsors() {
     </>
   );
 }
+
+/*
+
+*/
