@@ -105,9 +105,6 @@ const Home = () => {
       <div id="Parteneri" className="hidden lg:block">
         <Sponsors />
       </div>
-      <div id="Parteneri" className="hidden lg:block">
-        <Sponsors />
-      </div>
       <div>
         
       </div>
