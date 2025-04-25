@@ -64,7 +64,7 @@ export const Challenges = () => {
             {expandedDiv === 1 ? (
               <div className={` bg-white h-[80%] mt-4`}>
                 <h1 className="text-lg tracking-tighter text-left ml-5 mt-[10%]  text-black font-bold">
-                Această probă oferă o experiență practică în utilizarea modelelor de computer vision, dar și data analysis.
+                Această probă oferă o experiență practică în utilizarea modelelor de computer vision, dar și LLMs.
                 Participanții vor interacționa cu tehnologii avansate de prelucrare de date, explorând aplicații esențiale în domeniul inteligenței artificiale.
                 </h1>
 
@@ -75,7 +75,7 @@ export const Challenges = () => {
                   </div>
                   <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
-                    <h3 className="mr-6">Data Analysis</h3>
+                    <h3 className="mr-6">LLMs</h3>
                   </div>
                   {/* <div className="flex items-center mb-2">
                     <img src={CheckIcon} alt="" className="mr-5" />
