@@ -19,10 +19,10 @@ const Footer = () => {
                 <h3 className="font-source-code-pro mx-auto pt-5">lse.electron@gmail.com</h3>
                 <div className=" h-auto w-auto absolute right-36 -mt-14 flex">
                     <img className="cursor-pointer hover:cursor-grab"
-                        onClick={() => window.open('https://www.facebook.com/electronbylse', '_blank')}
+                        onClick={() => window.open('https://www.facebook.com/electron.hackathon', '_blank')}
                          src={FaceBook} alt="FaceBook"/>
                     <img className="cursor-pointer hover:cursor-grab"
-                        onClick={() => window.open('https://www.instagram.com/electron.lse?igsh=cmtiemwxZmtrcHdx&utm_source=qr', '_blank')}
+                        onClick={() => window.open('https://www.instagram.com/electron.hackathon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank')}
                         src={Instagram} alt="Instagram"/>
                     <img className="cursor-pointer hover:cursor-grab"
                          onClick={() => window.open('https://www.linkedin.com/company/electronlse/', '_blank')}
